@@ -1,0 +1,1 @@
+# slashcommand-ec2
