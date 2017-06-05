@@ -175,6 +175,10 @@ Resources:
       MinSize: '1'
       MaxSize: !Ref 'MaxSize'
       DesiredCapacity: !Ref 'DesiredCapacity'
+      Tags:
+        - Key: 'Name'
+          Value: 'linuxacademy'
+          PropagateAtLaunch: 'true'
     CreationPolicy:
       ResourceSignal:
         Timeout: PT15M
